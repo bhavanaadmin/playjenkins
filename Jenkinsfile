@@ -29,7 +29,7 @@ spec:
     stage('Deploy App') {
       steps {
         script {
-          kubernetesDeploy(configs: "web.yaml", kubeconfigId: "3478f74e-fd69-41a6-987d-8083b090850c")
+          kubernetesDeploy(configs: "myweb.yaml", kubeconfigId: "3478f74e-fd69-41a6-987d-8083b090850c")
         }
       }
     }
